@@ -3,10 +3,7 @@ using Models;
 using Models.Events;
 
 List<Event> events = new() {
-    new SystemEvent(),
-    new SystemEvent(),
-    new SystemEvent(),
-    new SystemEvent()
+    new GoblinsEvent(),
 };
 
 var playerCreationResult = Player.Create(10, 0);
